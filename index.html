@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Studio — Data Analytics Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=DM+Mono:wght@300;400&family=Syne:wght@400;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav">
+    <div class="nav-logo">CHINO ERIC ODU<span class="dot"></span></div>
+    <ul class="nav-links">
+      <li><a href="#work">Work</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#contact" class="nav-cta">Let's Talk</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobileMenu">
+    <ul>
+      <li><a href="#work" class="mob-link">Work</a></li>
+      <li><a href="#about" class="mob-link">About</a></li>
+      <li><a href="#services" class="mob-link">Services</a></li>
+      <li><a href="#contact" class="mob-link">Let's Talk</a></li>
+    </ul>
+  </div>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-bg">
+      <div class="blob blob-1"></div>
+      <div class="blob blob-2"></div>
+      <div class="grain"></div>
+    </div>
+    <div class="hero-content">
+      <p class="hero-tag reveal">DATA ANALYST | INSIGHTS & VISUALIZATION</p>
+      <h1 class="hero-title reveal">
+        <span>Transforming</span>
+        <em>Data</Data></em>
+        <span>Into</span>
+        <span>Insight</span>
+      </h1>
+      <p class="hero-sub reveal">I analyze data, build dashboards, and create insights<br>that drive better decisions and lasting impact.</p>
+      <div class="hero-actions reveal">
+        <a href="#work" class="btn-primary">View My Work</a>
+        <a href="#contact" class="btn-ghost">Get In Touch</a>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  
+  </section>
+
+  <!-- MARQUEE -->
+  <div class="marquee-wrap">
+    <div class="marquee-track">
+      <span>Data Analysis</span><span class="sep">✦</span>
+      <span>Data Visualization</span><span class="sep">✦</span>
+      <span>Business Intelligence</span><span class="sep">✦</span>
+      <span>SQL & Databases</span><span class="sep">✦</span>
+      <span>Power Bi & Tablaeu</span><span class="sep">✦</span>
+      <span>Predictive Analytic</span><span class="sep">✦</span>
+      <span>Dashboard Design</span><span class="sep">✦</span>
+      <span>Data Storytelling</span><span class="sep">✦</span>
+      <span>Data Cleaning</span><span class="sep">✦</span>
+      <span>SQL & Python</span><span class="sep">✦</span>
+      <span>R</span><span class="sep">✦</span>
+      <span>Interactive Dashboards</span><span class="sep">✦</span>
+    </div>
+  </div>
+
+  <!-- WORK -->
+  <section class="work" id="work">
+    <div class="section-header">
+      <p class="section-tag">Selected Work</p>
+      <h2 class="section-title">Recent <em>Projects</em></h2>
+    </div>
+
+    <div class="projects-grid">
+      <div class="project-card large reveal" data-cat="Power BI">
+        <div class="project-img" style="background: url('images/Health.jpg') center/cover no-repeat;">
+          <div class="project-shape"></div>
+          <div class="project-label">01</div>
+        </div>
+        <div class="project-info">
+          <h3>Smoking Health Risk Analysis</h3>
+          <p>In this guided project, I conducted an exploratory health data analysis focused on comparing the health indicators of smokers with different lifestyle patterns. The goal was to understand how smoking habits relate to overall health conditions and identify differences between relatively healthy smokers and those with poorer health outcomes.</p>
+          <span class="tag">Health Risk Analysis</span>
+          <a href="https://app.powerbi.com/view?r=eyJrIjoiNjMwYzZmYTEtNzQ3YS00NDFlLTkzZGEtOTI1Y2EyNWQ3NjAwIiwidCI6ImNlNTUxZDA0LWUwZDQtNDY0ZC1iMWVlLWQ3Y2YyN2UxZGU4ZSJ9" target="_blank" class="project-link">
+  View Case Study →
+</a>
+        </div>
+      </div>
+
+      <div class="project-card reveal" data-cat="Data Exploration">
+        <div class="project-img" style="background: url('images/Diabetes.jpg') center/cover no-repeat;">
+          <div class="project-shape s2"></div>
+          <div class="project-label">02</div>
+        </div>
+        <div class="project-info">
+          <h3>Predictive Modelling on Diabetes Patients Data using python</h3>
+          <p>This diabetes machine learning project aimed at revolutionizing the way we manage and treated diabetes by harnessing the power of artificial intelligence.
+
+										The project leverages advanced machine learning algorithms to analyze and predict various aspect of diabetes by collecting and processing extensive data from the individuals with diabetes.</p>
+          <span class="tag">Predictive Analysis</span>
+          <a href="https://www.kaggle.com/code/chinoericodu/predictive-modelling-on-diabetes-patients-data" class="project-link">View Case Study →</a>
+        </div>
+      </div>
+
+      <div class="project-card reveal" data-cat="Exploratory Analysis">
+        <div class="project-img" style="background: url('images/Nobel\ prize.jpg') center/cover no-repeat;">
+          <div class="project-shape s3"></div>
+          <div class="project-label">03</div>
+        </div>
+        <div class="project-info">
+          <h3>Nobel Prize Laureates Data Exploration</h3>
+          <p>In this Project, i explored the data surrounding the Nobel Prize including its history, trends and patterns. 
+										The demographic characteristics of Nobel laureates, such as their gender,
+										age and nationality, as well as the areas of research and work for which they were recognized were explored.</p>
+          <span class="tag">Exploratory Analysis</span>
+          <a href="https://www.kaggle.com/code/chinoericodu/nobel-prize-data-analysis-1901-2022" class="project-link">View Case Study →</a>
+        </div>
+      </div>
+
+      <div class="project-card reveal" data-cat="R">
+        <div class="project-img" style="background: url('images/Bellabeat.jpg') center/cover no-repeat;">
+          <div class="project-shape s4"></div>
+          <div class="project-label">04</div>
+        </div>
+        <div class="project-info">
+          <h3>Data Exploration Using R</h3>
+          <p>In this project, I performed exploratory analysis using R to explore Bellabeat company data.
+    I identified trends in smart device usage and provided recommendations to guide marketing strategy.</p>
+          <span class="tag">Exploratory Analysis</span>
+          <a href="https://www.kaggle.com/code/chinoericodu/bellabeat-case-study" class="project-link">View Case Study →</a>
+        </div>
+
+      </div>
+         <div class="project-card reveal" data-cat="SQL">
+        <div class="project-img" style="background: url('images/Covid.jpg') center/cover no-repeat;">
+          <div class="project-shape s4"></div>
+          <div class="project-label">05</div>
+        </div>
+        <div class="project-info">
+          <h3>Covid 19 Data Exploration using SQL</h3>
+          <p>In this project, I performed exploratory analysis using sqlite to explore global covid 19 data and used tableau to visualize the data.</p>
+          <span class="tag">exploratory analysis</span>
+          <a href="https://github.com/Eric3xp/SQL-Project" class="project-link">View Case Study →</a>
+        </div>
+      </div>
+
+         <div class="project-card reveal" data-cat="Power BI">
+        <div class="project-img" style="background: url('images/Mcb.jpg') center/cover no-repeat;"">
+          <div class="project-shape s4"></div>
+          <div class="project-label">06</div>
+        </div>
+        <div class="project-info">
+          <h3>Power BI WhatsApp chat Project</h3>
+          <p>Data from a WhatsApp groupchat was obtained and analyzed to generate insights.</p>
+          <span class="tag">Data Analysis</span>
+          <a href="https://app.powerbi.com/view?r=eyJrIjoiNWIyMjI0NWUtYzM2Yy00Y2Y1LThhY2ItZmNlYTA4MDA4YTcyIiwidCI6ImQwZTg4MjU1LThiMzItNDI3NS1hMTA2LTBmNmNlNjZhZjFjNCJ9" class="project-link">View Case Study →</a>
+        </div>
+      </div>
+
+         <div class="project-card reveal" data-cat="Power BI">
+        <div class="project-img" style="background: url('images/Sales.jpg') center/cover no-repeat;"">
+          <div class="project-shape s4"></div>
+          <div class="project-label">07</div>
+        </div>
+        <div class="project-info">
+          <h3>Power BI Sales Analysis Project</h3>
+          <p>This sales Power BI project was to optimize sales, decision making and enhancing product performance.The dashboard provides an insight on the sales data</p>
+          <span class="tag">Sales Analysis</span>
+          <a href="https://app.powerbi.com/view?r=eyJrIjoiNTI4NDE5ZGUtOTQ4Ny00YmQ2LTliNjItOWJhZDExNjRiYTQ2IiwidCI6ImQwZTg4MjU1LThiMzItNDI3NS1hMTA2LTBmNmNlNjZhZjFjNCJ9" class="project-link">View Case Study →</a>
+        </div>
+      </div>
+
+      <div class="project-card large reveal" data-cat="Tableau">
+        <div class="project-img" style="background: url('images/Tableau.jpg') center/cover no-repeat;">
+          <div class="project-shape s5"></div>
+          <div class="project-label">08</div>
+        </div>
+        <div class="project-info">
+          <h3>Tableau Dashboards</h3>
+          <p>Tableau Dashboard Projects</p>
+          <span class="tag">Tableau</span>
+          <a href="https://public.tableau.com/app/profile/chino" class="project-link">View Case Study →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+  <div class="about-grid">
+
+    <div class="about-visual reveal">
+
+      <div class="about-img-wrap">
+        <img src="images/photo1.jpg" alt="CHINO" class="about-photo">
+
+        <!-- 👇 NOW DIRECTLY UNDER IMAGE -->
+        <div class="about-badge">Available for Freelance</div>
+
+        <div class="about-skills">
+          <div class="skill-pill">Excel</div>
+          <div class="skill-pill">Power BI</div>
+          <div class="skill-pill">Tablaeu</div>
+          <div class="skill-pill">Python</div>
+          <div class="skill-pill">SQL</div>
+          <div class="skill-pill">R</div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+      </div>
+      <div class="about-text reveal">
+        <p class="section-tag">About Me</p>
+        <h2 class="section-title">Data is my<br><em>language</em></h2>
+        <p class="about-bio">I'm Eric Chino, a data analyst passionate about transforming raw data into meaningful insights. I specialize in data visualization, health care analysis, and analytics solutions that help businesses make smarter, data-driven decisions.</p>
+        <p class="about-bio">My approach combines analytical thinking with attention to detail — every dashboard, every metric, every insight has a purpose. I believe great analysis isn't just about numbers; it's about telling stories that drive impact.</p>
+        <a href="#contact" class="btn-primary">Work With Me</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="services" id="services">
+    <div class="section-header">
+      <p class="section-tag">What I Do</p>
+      <h2 class="section-title">Services &amp; <em>Expertise</em></h2>
+    </div>
+    <div class="services-grid">
+      <div class="service-card reveal">
+        <div class="service-icon">◈</div>
+        <h3>Data Analysis & Insights</h3>
+        <p>Transforming raw data into clear insights, trends, and actionable business decisions.</p>
+      </div>
+      <div class="service-card reveal">
+        <div class="service-icon">⬡</div>
+        <h3>Data Visualization &amp; Dashboards</h3>
+        <p>Interactive dashboards and reports using Power BI, Excel, or Tableau for easy decision-making.</p>
+      </div>
+      <div class="service-card reveal">
+        <div class="service-icon">◉</div>
+        <h3>Data Cleaning &amp; Preparation</h3>
+        <p>Cleaning, organizing, and preparing datasets to ensure accurate and reliable analysis.</p>
+      </div>
+      <div class="service-card reveal">
+        <div class="service-icon">⬟</div>
+        <h3>Reporting &amp; Business Intelligence</h3>
+        <p>Performance reports, KPI tracking, and business intelligence solutions to monitor growth and outcomes.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="contact-inner reveal">
+      <p class="section-tag">Let's Collaborate</p>
+      <h2 class="contact-title">Have a project in <em>mind?</em></h2>
+      <p class="contact-sub">I'm currently open to new projects and opportunities. Let's build something memorable together.</p>
+      <a href="mailto:talkwithchinoeric@gmail.com" class="contact-email">hello@Talkwithchinoeric.data</a>
+      <div class="contact-socials">
+        <a href="https://www.kaggle.com/chinoericodu" class="social-link">Kaggle</a>
+        <a href="https://www.linkedin.com/in/chinoericodu/" class="social-link">LinkedIn</a>
+        
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <span class="nav-logo">CHINO ERIC ODU<span class="dot"></span></span>
+      <p>© 2026 Eric Chino. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
